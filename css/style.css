@@ -119,11 +119,30 @@ height: 200px;
 
 /* icone partes */
 
-.icones{
-    position:relative;
-    margin: auto auto;
+.icones img{
+
+height: 50px;
+width: 50px;
+display: initial;
+left: 45%;
+position: relative;
+top: 20px;
+
 }
 
+.icones:nth-child(2) {
+background: red;
+
+}
+
+.iconesLucas{
+height: 50px;
+width: 50px;
+display: initial;
+left: 45%;
+position: relative;
+top: 20px;    
+}
 
 
 
