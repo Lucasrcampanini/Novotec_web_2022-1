@@ -11,8 +11,18 @@ html{
 scroll-behavior: smooth;
 }
 
-/* time lateral */
-.time a {
+/* portiforio alunos */
+.navAluno{
+text-decoration: none;
+color: rgb(255, 255, 255);
+font-size: 50px;
+position: relative;
+top: -90px;
+left: -30%;;
+}
+
+/* time e projetos na lateral */
+.timeProjetos a {
 font-size: large;
 color: white;
 font-weight: bold;
@@ -20,45 +30,45 @@ position: relative;
 top: 35px;
 left: 1000px;
 text-decoration: none;
+margin: 10px;
 }
 
+
+
 /* gradiente fundo */
-.time {
+.timeProjetos {
 background-image: radial-gradient(circle at 50% -20.71%, #ff57d2 0, #ff4edb 12.5%, #f046e3 25%, #d63feb 37.5%, #b53cf2 50%, #8c3df9 62.5%, #4f40ff 75%, #0046ff 87.5%, #004bff 100%);
 height: 100px;
 align-content: space-around;
 }
 
 
-/* portiforio alunos */
-.navAluno a {
-text-decoration: none;
-color: rgb(255, 255, 255);
-font-size: 50px;
-position: relative;
-top: -90px;
-left: 100px;
-}
+
 
 /*  titulo novotec fatec */
 #titulo {
 position: relative;
 text-align: center;
-top: -50px;
+top: -1%;
 }
 
 
 /* imagem fatec */
 .logofatec img {
-display: block;
-margin: 0px auto;
+
+margin: 0;
 position: relative;
-top: -30px;
+top: -25%;
+left: 43%;
+
 }
 
 /* texto sobre a fatec */
 h1{
 text-align: center;
+position: relative;
+top: -5%;
+
 }
 
 /* imagem professor */
@@ -130,10 +140,6 @@ top: 20px;
 
 }
 
-.icones:nth-child(2) {
-background: red;
-
-}
 
 .iconesLucas{
 height: 50px;
@@ -153,3 +159,47 @@ position: relative;
 top: 10px;
 }
 
+@media screen and (max-width: 500px) {
+
+  /* portiforio alunos */
+  .navAluno{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    position: relative;
+    top: -3%;
+    left: 1%;
+  }
+
+  /* time e projetos na lateral */
+  .timeProjetos a {
+    font-size: large;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    top: 60%;
+    left: 30%;
+    text-decoration: none;
+    margin: 10px;
+  } 
+  
+  
+/* imagem fatec */
+  .logofatec img{
+  margin: auto;
+  position: relative;
+  top: -10%;
+  left: 25%;
+  }
+  .icones img{
+
+    height: 50px;
+    width: 50px;
+    display: initial;
+    left: 32%;
+    position: relative;
+    top: 20px;
+    
+    }
+
+}
