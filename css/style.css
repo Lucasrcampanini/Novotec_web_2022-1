@@ -217,7 +217,7 @@ p {
 
 }
 
-@media all and (max-width: 500px) {
+@media (max-width: 500px) {
   .card-list {
     /* On small screens, we are no longer using row direction but column */
     flex-direction: column;
@@ -271,3 +271,51 @@ p {
   margin-top: 60px;
 
 }
+
+
+@media (max-width: 402px) {
+  .card-list {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+
+  /* portiforio alunos */
+  .navAluno {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 43px;
+    
+    position: relative;
+    top: -11%;
+    left: 1%;
+   
+  }
+
+  /* time e projetos na lateral */
+  .timeProjetos a {
+    top: -10%;
+    left: 32%;
+  }
+
+
+  /* imagem fatec */
+  .logofatec img {
+    margin: auto;
+    position: relative;
+    top: -4%;
+    left: 21%;
+  }
+
+  .icones img {
+
+    height: 50px;
+    width: 50px;
+    display: initial;
+    left: 32%;
+    position: relative;
+    top: 20px;
+
+  }
+
+}
+
