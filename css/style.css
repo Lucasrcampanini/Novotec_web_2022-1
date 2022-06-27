@@ -315,3 +315,96 @@ p {
 
 }
 
+* {
+  font-family: Roboto;
+}
+
+.footer-distributed{
+	background: rgb(96, 48, 173);
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	font: bold 16px sans-serif;
+	text-align: left;
+	padding: 50px 60px 40px;
+  overflow: hidden;
+  float: unset;
+}
+
+
+
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+  float: unset;
+
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+font-size: 25px;
+  margin: 0 0 10px;
+  text-align: center;
+}
+
+.footer-distributed h3 span{
+  color:  #5383d3;
+  float: unset,
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: normal;
+  margin: 0;
+  float: unset;
+}
+
+/* Footer social icons */
+
+
+
+
+
+/* The contact form */
+
+
+
+
+
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+
+@media (max-width: 800px) {
+
+	.footer-distributed{
+    padding: 30px;
+  
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+		float: none;
+		max-width: 300px;
+		margin: 0 auto;
+	}
+
