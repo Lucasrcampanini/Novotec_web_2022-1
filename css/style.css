@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;1,300&display=swap');
 
 
-* {
-  font-family: 'Poppins', sans-serif;
+ *{
+  
   padding: 0;
   margin: 0;
 }
@@ -21,6 +22,7 @@ html {
   left: 1000px;
   text-decoration: none;
   margin: 10px;
+  font-family: 'Poppins', sans-serif;
 }
 
 
@@ -30,6 +32,7 @@ html {
   background-image: radial-gradient(circle at 50% -20.71%, #ff57d2 0, #ff4edb 12.5%, #f046e3 25%, #d63feb 37.5%, #b53cf2 50%, #8c3df9 62.5%, #4f40ff 75%, #0046ff 87.5%, #004bff 100%);
   height: 100px;
   align-content: space-around;
+  
 }
 
 
@@ -66,6 +69,7 @@ h1 {
   text-align: center;
   font-size: 37px;
   font-weight: bold;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* imagem professor */
@@ -74,12 +78,14 @@ h1 {
   margin: auto;
   border-radius: 50%;
   height: 200px;
+
 }
 
 .sobreEle p {
   text-align: center;
   position: relative;
   top: 10px;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* imagem leonardo */
@@ -88,6 +94,7 @@ h1 {
   margin: auto;
   border-radius: 50%;
   height: 200px;
+  
 }
 
 
@@ -99,6 +106,7 @@ h1 {
   top: 5px;
   border-radius: 50%;
   height: 200px;
+  
 }
 
 
@@ -158,6 +166,7 @@ p {
   text-align: center;
   position: relative;
   top: 10px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .cards-list {
@@ -315,9 +324,6 @@ p {
 
 }
 
-* {
-  font-family: Roboto;
-}
 
 .footer-distributed{
 	background: rgb(96, 48, 173);
@@ -329,6 +335,7 @@ p {
 	padding: 50px 60px 40px;
   overflow: hidden;
   float: unset;
+  font-family: 'Source Code Pro', monospace;
 }
 
 
@@ -401,10 +408,10 @@ font-size: 25px;
   
 	}
 
-	.footer-distributed .footer-left,
-	.footer-distributed .footer-right{
+	.footer-distributed .footer-left{
 		float: none;
 		max-width: 300px;
 		margin: 0 auto;
-	}
+  }
+
 }
