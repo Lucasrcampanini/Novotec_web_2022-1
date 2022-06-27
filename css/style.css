@@ -93,7 +93,9 @@ h1 {
   display: block;
   margin: auto;
   border-radius: 50%;
-  height: 200px;
+  height: 200px; 
+  text-align: justify;
+  
   
 }
 
@@ -131,7 +133,35 @@ h1 {
   border-radius: 50%;
   height: 200px;
 }
+.texto p {
+  text-align: justify; 
+  padding: 0px 40px;
+} 
 
+.texto2 p {
+  text-align: justify;
+  padding: 0px 40px;
+}
+
+.texto3 p{
+  text-align: justify;
+  padding: 0px 40px;
+}
+
+.texto4 p {
+  text-align: justify;
+  padding: 0px 40px;
+}
+
+.texto5 p {
+  text-align: justify;
+  padding: 0px 40px;
+}
+
+.texto6 p {
+  text-align: justify;
+  padding: 0px 40px;
+}
 /* icone partes */
 
 .icones img {
