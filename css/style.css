@@ -210,7 +210,11 @@ p {
   
   object-fit: fill;
 }
-
+.card .card_image a{
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
 .card .card_title {
   border-radius: 0px 0px 40px 40px;
   font-size: 22px;
