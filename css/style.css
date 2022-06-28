@@ -29,7 +29,7 @@ html {
 
 /* gradiente fundo */
 .timeProjetos {
-  background-image: radial-gradient(circle at 50% -20.71%, #ff57d2 0, #ff4edb 12.5%, #f046e3 25%, #d63feb 37.5%, #b53cf2 50%, #8c3df9 62.5%, #4f40ff 75%, #0046ff 87.5%, #004bff 100%);
+  background-color: purple;
   height: 100px;
   align-content: space-around;
   
@@ -175,6 +175,11 @@ p {
   font-family: 'Poppins', sans-serif;
 }
 
+
+
+
+
+
 .cards-list {
   z-index: 0;
   width: 100%;
@@ -196,14 +201,14 @@ p {
 .card .card_image {
   width: inherit;
   height: inherit;
-  border-radius: 40px;
+  object-fit: fill;
 }
 
 .card .card_image img {
   width: inherit;
   height: inherit;
-  border-radius: 40px;
-  object-fit: cover;
+  
+  object-fit: fill;
 }
 
 .card .card_title {
