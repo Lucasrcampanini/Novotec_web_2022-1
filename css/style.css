@@ -19,7 +19,7 @@ html {
   font-weight: bold;
   position: relative;
   top: -38px;
-  left: 1000px;
+  left: 75%;
   text-decoration: none;
   margin: 10px;
   font-family: 'Poppins', sans-serif;
@@ -246,7 +246,7 @@ p {
 }
 
 .footer-distributed{
-	background: rgb(96, 48, 173);
+	background: purple;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
