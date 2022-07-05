@@ -60,13 +60,11 @@ border-radius: 15px;
 color: green;
 height: 1000px;
 width: 1000px;
-
 background-color: green;
 border-radius: 50%;
 position: relative;
 left: 1250px;
 top: -100px;
-
 }
 
 #copao{
@@ -95,19 +93,24 @@ position: relative;
 width: 100px;
 left: 850px;
 top: -1300px;
-
+cursor: pointer;
+transition: 0.50s;
 }
 
+.copos img:hover{
+transform: translateY(-15px);
+}
 
 @media (max-width: 500px){
+
 .menu a{
 position: relative;
 text-decoration: none;
-color: black;
-left: -25px;
-top: 10px ;
-width: 100px;   
-margin-left: 10px;
+color:black;
+top: 10px;
+margin-left:5px;
+font-size:17px;
+
 }
         
 #logo{
@@ -115,7 +118,7 @@ position: relative;
 height: 100px;
 width: 100px;
 display: block;
-left: 25%;
+left: 28%;
 }
 
 #star{
@@ -160,7 +163,7 @@ position: relative;
 width: 63px;
 left: 56px;
 top: -425px;
-
+display: none;
 }
 
 }
