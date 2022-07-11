@@ -19,7 +19,7 @@ html {
   font-weight: bold;
   position: relative;
   top: -38px;
-  left: 75%;
+  left: 80%;
   text-decoration: none;
   margin: 10px;
   font-family: 'Poppins', sans-serif;
@@ -43,7 +43,7 @@ html {
   font-size: 50px;
   position: relative;
   /*! top: 3px; */
-  left: -420px;
+  left: -23%;
 }
 
 /*  titulo novotec fatec */
@@ -249,7 +249,7 @@ p {
 
 .projetosc p {
   text-align: justify;
-  padding: 0px 40px;
+  padding: 0px 10px;
 }
 
 
@@ -322,7 +322,7 @@ p {
   }
 
   .card {
-    margin-top: 150px;
+    margin-top: 190px;
   }
 
   /* portiforio alunos */
@@ -368,6 +368,18 @@ p {
     /* On small screens, we are no longer using row direction but column */
     flex-direction: column;
   }
+  
+.card {
+  margin: 50px auto;
+  width: 330px;
+  height: 90px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+  transition: 0.4s;
+  margin-top: 200px;
+} 
+
 
   /* portiforio alunos */
   .navAluno {
@@ -410,8 +422,63 @@ p {
 }
 
 /* If you don't want the footer to be responsive, remove these media queries */
-@media (max-width: 800px) {
+@media ( min-width:500px) and (max-width: 800px) {
 
+  .card-list {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+
+  /* portiforio alunos */
+  .navAluno {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 43px;
+    position: relative;
+    top: -11%;
+    left: -1%;
+
+  }
+
+  /* time e projetos na lateral */
+  .timeProjetos a {
+    top: -10%;
+    left: 42%;
+  }
+
+
+  /* imagem fatec */
+  .logofatec img {
+    margin: auto;
+    position: relative;
+    top: -4%;
+    left: 38%;
+  }
+
+  .card {
+    margin-top: 190px;
+  }
+
+  .icones img {
+
+    height: 50px;
+    width: 50px;
+    display: initial;
+    left: 40%;
+    position: relative;
+    top: 20px;
+
+  }
+
+  
+.cards-list {
+  z-index: 0;
+  width: 100%;
+  display: flow-root;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+  
   .footer-distributed {
     padding: 30px;
 
@@ -422,5 +489,22 @@ p {
     max-width: 300px;
     margin: 0 auto;
   }
+
+}
+
+@media ( min-width:800px) and (max-width: 1024px) {
+
+  .card {
+    margin: 50px auto;
+    width: 350px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+    cursor: pointer;
+    transition: 0.4s;
+    margin-top: 200px;
+  } 
+
+
 
 }
